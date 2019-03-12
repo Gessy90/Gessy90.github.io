@@ -1,4 +1,31 @@
-body{
-  background-color: #ffdab9;
-  font-family: Helvetica, sans-sans-serif;
+.hero-body{
+  background-image: url(https://www.highreshdwallpapers.com/wp-content/uploads/2013/09/Tulips-of-Pink.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.about{
+  background-color: 	#ecffe9;
+}
+.skills{
+  background-color: 	#e9ecff;
+}
+#projects{
+  background-color: 	#fff1e9;
+}
+.contacts{
+  background-color: #ffe9f7;
+}
+.card-image{
+  display:flex;
+}
+.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.container1{
+  display:inline;
+
 }
