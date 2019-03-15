@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+  <title>Gessica Santoro | Web Developer </title>
   <meta charset="utf-8">
   <script src="app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-  <title>Gessica Santoro | Web Developer </title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,23 +15,23 @@
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
 
-          <a class="navbar-item">
+          <a class="navbar-item"  href="#home">
             Home
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item"  href="#about">
             About Me
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" href="#skills">
             My Skills
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" href="#projects">
             Projects
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item"  href="#contacts">
             Contacts
           </a>
         </div>
@@ -37,7 +39,7 @@
     </nav>
 
 
-    <section class="hero is-large">
+    <section class="hero is-large" id="home">
       <div class="hero-body">
         <div class="container1">
           <h2 class="subtitle has-text-black has-text-right is-size-2">
@@ -53,7 +55,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h1 class="title has-text-centered">About Me</h1>
         <div class="photo">
@@ -70,143 +72,74 @@
         </div>
       </section>
 
-      <section class="skills">
-        <div class="container">
-          <h1 class="title has-text-left">My Skills</h1>
-          <div class="columns">
-            <div class="column">
-              <div class="card-image">
-                <figure class="image is-64x64">
-                  <img src="https://www.asher.edu/wp-content/uploads/2018/08/Html5-coding-school.png" alt="Placeholder image">
-                </figure>
-              </br>
-              <p class="is-size-5 is-italic">HTML</p>
+      <section class="skills" id="skills">
+              <h1 class="title has-text-centered">My Skills</h1>
+            <div class="columns is-multiline is-mobile">
+              <div class="column is-one-seventh">
+                <h4 class="subtitle">Languages</h4>
+              <div class="icon"><i class="fab fa-python"></i></div>
+              <p>Python</p>
+              <div class="icon"><i class="devicon-babel-plain"></i></div>
+              <p>Babel</p>
             </div>
 
-            <div class="card-image">
-              <figure class="image is-64x64">
-                <img src="https://www.codingdojo.com/blog/wp-content/uploads/css.jpg" alt="Placeholder image">
-              </figure>
-            </br>
-            <p class="is-size-5">CSS</p>
+            <div class="column is-one-seventh">
+              <h4 class="subtitle">Frameworks</h4>
+            <div class="icon"><i class="fab fa-react"></i></i></div>
+            <p>React</p>
+            <div class="icon"><i class="devicon-jquery-plain"></i></div>
+            <p>jQuery</p>
+            <div class="icon"><i class="devicon-express-original"></i></div>
+            <p>Express</p>
+            <div class="icon"><i class="devicon-flask-plain"></i></div>
+            <p>Flask</p>
           </div>
 
-          <div class="card-image">
-            <figure class="image is-64x64">
-              <img src="https://cdn-images-1.medium.com/max/1600/1*ez6AmVKmBWWM0SaFrMEIDA.png" alt="Placeholder image">
-            </figure>
-          </br>
-          <p class="is-size-5">SASS</p>
+          <div class="column is-one-seventh">
+            <h4 class="subtitle">Database</h4>
+          <div class="icon"><i class="devicon-mongodb-plain"></i></i></div>
+          <p>MongoDB</p>
+          <div class="icon"><i class="devicon-postgresql-plain"></i></div>
+          <p>PostgreSQL</p>
+          <div class="icon"><i class="sqla png-icon"></i></div>
+          <p>SQLAlchemy</p>
         </div>
 
-        <div class="card-image">
-          <figure class="image is-64x64">
-            <img src="https://www.w3schools.com/whatis/img_js.png" alt="Placeholder image">
-          </figure>
-        </br>
-        <p class="is-size-5">JavaScript</p>
+        <div class="column is-one-seventh">
+          <h4 class="subtitle">Styling</h4>
+        <div class="icon"><i class="devicon-css3-plain"></i></i></div>
+        <p>CSS</p>
+        <div class="icon"><i class="devicon-sass-original"></i></div>
+        <p>SASS</p>
+        <div class="icon"><i class="bulma png-icon"></i></div>
+        <p>Bulma</p>
       </div>
 
-      <div class="card-image">
-        <figure class="image is-64x64">
-          <img src="https://banner2.kisspng.com/20180502/ksq/kisspng-web-development-jquery-ui-javascript-computer-icon-jqlogo-5ae94a5d5e5172.2488375515252383653863.jpg" alt="Placeholder image">
-        </figure>
-      </br>
-      <p class="is-size-5">jQuery</p>
+      <div class="column is-one-seventh">
+        <h4 class="subtitle">Text Editors</h4>
+      <div class="icon"><i class="devicon-atom-original"></i></i></div>
+      <p>Atom</p>
+      <div class="icon"><i class=""></i></div>
+      <p>Sublime</p>
     </div>
 
-    <div class="card-image">
-      <figure class="image is-64x64">
-        <img src="https://s16315.pcdn.co/wp-content/uploads/2017/06/mongodb-375x228.png" alt="Placeholder image">
-      </figure>
-    </br>
-    <p class="is-size-5">MongoDB</p>
-  </div>
+        <div class="column is-one-seventh">
+      <h4 class="subtitle">Tools</h4>
+      <div class="icon"><i class="devicon-webpack-plain"></i></i></div>
+    <p>Webpack</p>
+    <div class="icon"><i class="devicon-nodejs-plain"></i></div>
+    <p>Node.js</p>
+    </div>
 
-  <div class="card-image">
-    <figure class="image is-64x64">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="Placeholder image">
-    </figure>
-  </br>
-  <p class="is-size-5">Node.js</p>
+  <div class="column is-one-seventh">
+    <h4 class="subtitle">Version Control</h4>
+  <div class="icon"><i class="devicon-git-plain"></i></i></div>
+  <p>Git</p>
+  <div class="icon"><i class="devicon-github-plain"></i></div>
+  <p>GitHub</p>
 </div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/brand-assets/Logos/0099ec3754bf473d2bbf317204ab6fea/trello-logo-blue.png" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Trello</p>
-</div>
-
-</div>
-<div class="column">
-  <div class="card-image">
-    <figure class="image is-64x64">
-      <img src="https://cdn-images-1.medium.com/max/1200/1*i3hzpSEiEEMTuWIYviYweQ.png" alt="Placeholder image">
-    </figure>
-  </br>
-  <p class="is-size-5">React</p>
-</div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://d1qb2nb5cznatu.cloudfront.net/startups/i/60436-22967c4ce89dbdbd4a8d49b090509a78-medium_jpg.jpg?buster=1517982458" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Github</p>
-</div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://bulma.io/images/bulma-banner.png" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Bulma</p>
-</div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://avatars2.githubusercontent.com/u/8770005?s=400&v=4" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Mocha</p>
-</div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://codingwithlaura.files.wordpress.com/2016/10/atom.jpg?w=810" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Atom</p>
-</div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://expressjs.com/images/express-facebook-share.png" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Express</p>
-</div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://cdn-eliostruyf.azureedge.net/wp-content/uploads/2016/10/101116_0811_Gettingupto1.png" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Webpack</p>
-</div>
-
-<div class="card-image">
-  <figure class="image is-64x64">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1200px-Babel_Logo.svg.png" alt="Placeholder image">
-  </figure>
-</br>
-<p class="is-size-5">Babel</p>
-</div>
-</div>
-</div>
-</section>
+          </div>
+        </section>
 
 <section class="projects" id="projects">
   <div class="container" >
@@ -304,15 +237,12 @@
     </div>
   </section>
 
-  <section class="contacts">
+  <section class="contacts" id="contacts">
     <div class="container">
       <h1 class="title has-text-centered">Contacts</h1>
-      <ol>
-        <li>Email: gessicasantoro90@hotmail.it</li>
-        <!-- <li>Contact Number: 07587140686</li> -->
-        <li>Linkedin + LINK</li>
-        <li>Github + LINK</li>
-      </ol>
+        <p class="subtitle has-text-centered">Email: gessicasantoro90@hotmail.it</p>
+        <a href="https://www.linkedin.com/in/gessica-santoro/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+         <a href="https://github.com/Gessy90" target="_blank"><i class="fab fa-github"></i> GitHub</a>
     </div>
   </section>
 </body>

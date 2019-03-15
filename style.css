@@ -7,9 +7,6 @@
 .about{
   background-color: 	#ecffe9;
 }
-.skills{
-  background-color: 	#e9ecff;
-}
 #projects{
   background-color: 	#fff1e9;
 }
@@ -27,5 +24,11 @@
 }
 .container1{
   display:inline;
-
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color:#ffe9f7;
+    font-size: 4rem;
 }
