@@ -13,8 +13,9 @@
 .contacts{
   background-color: #ffe9f7;
 }
-.card-image{
-  display:flex;
+.image{
+  height:30%;
+  width:30%;
 }
 .photo{
   display: block;
