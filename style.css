@@ -4,14 +4,17 @@
   background-size: cover;
 
 }
+#contacts{
+  background-image: url(https://image.freepik.com/free-photo/no-translate-detected_23-2148070774.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
 .about{
   background-color: 	#ecffe9;
 }
 #projects{
   background-color: 	#fff1e9;
-}
-.contacts{
-  background-color: #ffe9f7;
 }
 .image{
   height:30%;
