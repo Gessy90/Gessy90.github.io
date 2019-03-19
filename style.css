@@ -10,11 +10,11 @@
   background-size: cover;
   height: -webkit-fill-available;
 }
-.about{
-  background-color: 	#ecffe9;
-}
-#projects{
+.about, .skills, #projects{
   background-color: 	#fff1e9;
+}
+.subtitle{
+  padding-top: 15px;
 }
 .image{
   height:30%;
@@ -30,9 +30,15 @@
   display:inline;
 }
 .icon{
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    background-color:#ffe9f7;
-    font-size: 4rem;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color:#ffe9f7;
+  font-size: 4rem;
+}
+#about-sub, #skills{
+  padding-bottom: 30px;
+}
+#languages{
+  padding-left: 60px;
 }
