@@ -1,17 +1,27 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
 .hero-body{
-  background-image: url(https://www.highreshdwallpapers.com/wp-content/uploads/2013/09/Tulips-of-Pink.jpg);
+  background-image: url(https://images.unsplash.com/photo-1506269996138-4c6d92fbd8a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1550&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.navbar{
+  background-color:#e6e6fa;
+}
+.about{
+  background-color:#fff0f5;
+}
 
+.skills{
+  background-color:#e6e6fa;
+}
+#projects{
+  background-color:#fff0f5;
 }
 #contacts{
-  background-image: url(https://image.freepik.com/free-photo/no-translate-detected_23-2148070774.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: -webkit-fill-available;
-}
-.about, .skills, #projects{
-  background-color: 	#fff1e9;
+  background-color:#e6e6fa;
 }
 .subtitle{
   padding-top: 15px;
