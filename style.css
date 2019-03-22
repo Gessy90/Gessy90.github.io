@@ -1,7 +1,14 @@
-body{
-  font-family: 'Source Sans Pro', sans-serif;
+h3, h4{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-style: normal;
   }
 
+h1, h2{
+  font-family: 'bebas-neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .hero-body{
   background-image: url(https://images.unsplash.com/photo-1506269996138-4c6d92fbd8a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1550&q=80);
   background-repeat: no-repeat;
@@ -48,7 +55,4 @@ body{
 }
 #about-sub, #skills{
   padding-bottom: 30px;
-}
-#languages{
-  padding-left: 60px;
 }
